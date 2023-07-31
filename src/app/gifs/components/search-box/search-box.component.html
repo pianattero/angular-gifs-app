@@ -1,0 +1,11 @@
+<h5>Buscar:</h5>
+<input
+  type="text"
+  class="form-control"
+  placeholder="Buscar gifs... "
+  (keyup.enter)="searchTag()"
+  #txtTagInput
+>
+
+<!--   #txtTagInput -> así mando a llamar al texto que se haya puesto dentro del input -->
+<!-- (keyup.enter) -> se va a disparar el método searchTag una vez que el usuario haya apretado el enter -->
